@@ -31,7 +31,7 @@ export const Thumb = styled.div<ProductsHandlerStyleProps>`
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 10px;
-    border-bottom: solid ${theme.colors.light} 1px;
+    border-bottom: solid ${theme.colors.light} 3px;
   `}
 `;
 
@@ -44,7 +44,7 @@ export const Details = styled.div`
 `;
 
 export const Price = styled.p`
-  color: black;
+  color: green;
 `;
 
 export const Title = styled.p`

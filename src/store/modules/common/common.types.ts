@@ -21,3 +21,6 @@ export type CommonAction = {
   }
 }
 
+export type Dictionary<T> = {
+  [key: string]: T;
+};
