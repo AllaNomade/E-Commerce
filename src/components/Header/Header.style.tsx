@@ -12,14 +12,14 @@ export const Container = styled.div`
   justify-content: space-between;
   margin: auto;
   max-width: 1200px;
-  padding: 20px 10px;
+  padding: 32px 7px;
 `;
 
 export const Brand = styled.p`
   ${({ theme }) => css`
     color: ${theme.colors.white};
     display: flex;
-    flex: 1;
+    padding-right: 20px;
   `}
 `;
 
@@ -27,7 +27,7 @@ export const Cart = styled.div`
   ${({ theme }) => css`
     color: ${theme.colors.white};
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: flex-end;
   `}
 `;
