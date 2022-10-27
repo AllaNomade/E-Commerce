@@ -8,4 +8,6 @@ export const Form = styled.form`
 
 export const Input = styled.input`
   flex: 1;
+  height: 30px;
+  border-radius: 15px;
 `;
